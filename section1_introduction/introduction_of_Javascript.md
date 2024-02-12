@@ -1,6 +1,6 @@
 # Introduction
 ## What is Javascript.
-Javascript is the one of the most important progaming language that used for web developers.
+Javascript is the one of the most important progaming language that used for web developers and it designed to integrated with HTML.
 ## Important Javascript method.
 Today we will talk about an important method that could work along with HTML element 
 called 'getElementId'
@@ -33,3 +33,20 @@ By click button element part that Id named is 'test' will change fontSize to 50p
 ```
 When you click button the element that named 'test' will be hide.
 ### Show hidden part in HTML with JS.
+```
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <h2>
+        The usege of Javascript method along with HTML.
+    </h2>
+    <p id = "test">Hello Javascript.</p>
+    <p id = "test2" style="display:none">Hello Kira Yoshikage.</p>
+    <!-- Tutorial 1 JS can change HTML Attribute. -->
+    <!-- One of the useful methods of JS is getElementById() 
+    this method has been used forn getting HTML element by Id. -->
+    <button type ="button" onclick = 'document.getElementById("test2").style.display = "block"' >click_this</button>
+</body>
+</html>
+```
+From code above at the beggining the element with id named 'test2' has been hidden then we will use onclick to show that element.
